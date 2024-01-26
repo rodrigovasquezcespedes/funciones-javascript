@@ -23,5 +23,5 @@
 
 const pintar=(el,color='green')=>el.style.backgroundColor = color;
 
-const ele = document.getElementById("ele1")
+const ele = document.getElementById("ele1");
 ele.addEventListener("click", () => pintar(ele,'red'));
