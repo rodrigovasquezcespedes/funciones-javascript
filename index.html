@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <ul>
-        <li><a href="./assets/html/pintar.html">Desafio 1</a></li>
-        <li><a href="./assets/html/4_colores.html">Desafio 2</a></li>
-        <li><a href="./assets/html/key.html">Desafio 3</a></li>
-      </ul>
+    <div class="menu">
+        <ul>
+          <li><a href="./index.html" target="contenido">inicio</a></li>
+          <li><a href="./assets/html/pintar.html" target="contenido">Pintar</a></li>
+          <li><a href="./assets/html/4_colores.html" target="contenido">4 Colores</a></li>
+          <li><a href="./assets/html/key.html" target="contenido">event Key</a></li>
+        </ul>
+    </div>
+    <div class="contenedor">
+    <div id="card1">
+        <h1>Ejercicio 1</h1>
+        <h3>Transforma esta declaración de función a una función de expresión.</h3> 
+        <p>function example(a, b, c) <br> {
+            return a+b+c
+            }</p>
+            <h3>Respuesta</h3> 
+            <p>const example = function (a, b, c) <br> {
+                return a + b + c;
+            } <br> <a href="./assets/js/1_funcion.js">codigo 1</a></p>
+           
+      </div>
+    
+      <div id="card2">
+        <h1>Ejercicio 2</h1>
+        <h3>Transforma la siguiente función a una arrow function de una línea.</h3> 
+        <p> let suma = function(a, b) <br> {
+            return a + b
+            }</p>
+
+       
+            <h3>respuesta</h3> 
+            <p>let suma = (a, b) => a + b;</p> 
+            <p><a href="./assets/js/2_arrow.js">codigo 2</a></p>
+      </div>
+    </div>
 </body>
 </html>

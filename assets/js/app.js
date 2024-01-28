@@ -3,6 +3,7 @@ const contenedor = document.createElement("div");
 contenedor.style.display = "flex";
 contenedor.style.justifyContent = "center"; 
 contenedor.style.alignItems = "center"; 
+contenedor.style.padding="20px";
 document.body.appendChild(contenedor);
 
 
